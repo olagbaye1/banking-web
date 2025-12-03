@@ -509,6 +509,10 @@ background-color: #FCE0EF33;
  
   .innernav {
     width: calc(100% - 40px);
+     overflow-x: hidden;
+  }
+  .head{
+     overflow-x: hidden;
   }
   body{
     overflow-x: hidden;
@@ -638,6 +642,7 @@ background-color: #FCE0EF33;
   width: calc(100% - 40px);
     margin-top: 600px;
     height: 600px;
+    overflow-x: hidden;
     
 
     
