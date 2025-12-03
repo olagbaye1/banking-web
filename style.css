@@ -543,16 +543,17 @@ background-color: #FCE0EF33;
 
   .heroimage{
     width: 100%;
+    position: relative;
   }
   .yit {
     left: 0;
   }
 
-  .heroimage > .yum{
+  .yum{
     position: absolute;
-    left: 2;
-   
-    width: 120px;
+    left: -11px;
+    
+    
   }
   .smewrapper {
     width: calc(100% - 40px);
@@ -582,7 +583,9 @@ background-color: #FCE0EF33;
 
 .seccontent>p{
   font-size: 19px;
-  width: 460px;
+  width: 350px;
+  line-height: 30px;
+  text-align: start;
 
 
 }
@@ -593,6 +596,9 @@ background-color: #FCE0EF33;
 }
 .thirdsec{
   flex-direction: column;
+  width: calc(100% - 40px);
+  margin: auto;
+
 
 }
 .seccontent{
@@ -605,32 +611,81 @@ background-color: #FCE0EF33;
 }
 .bigest{
   width: calc(100% - 40px);
-    margin-top: 410px;
-    height: 500px;
+    margin-top: 600px;
+    height: 600px;
+    
+
     
 }
+
+.secbiggest {
+    display: flex;
+    overflow-x: auto;
+    gap: 40px;
+    padding: 15px 0 30px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;                    /* Firefox */
+  }
+  .secbiggest::-webkit-scrollbar {
+    display: none;                            /* Chrome/Safari/iPhone */
+  }
+  .secbiggest > .image1 {
+    flex: 0 0 85vw;
+  }
+
+
 .imageone{
-  height: 170px;
+  height: 280px;
+  width: 100%;
+  
 }
 .image4>span{
   width: 500px;
   font-size: 13px;
 }
+
+.image4>i{
+  font-size: 12px;
+  padding: 13px;
+}
 .footersec>p{
-  font-size: 13px;
+  font-size: 14px;
   color: black;
   font-weight: 400;
+  width: 200px;
 
 }
+
+.footersec>h4{
+
+  width: 200px;
+  font-weight: 600;
+  font-size: 16px;
+}
 .bigboss{
-   width: calc(100% - 40px);
+   width: calc(100%- 40px);
+   flex-direction: column;
+   gap: 12px;
+   justify-content: start;
+   align-items: start;
+   margin-left:30px;
+   
+   
+   
    
 
 }
 .socialic{
-  position: relative;
-  bottom: 60px;
+  margin-bottom: 500px;
+  
 }
+.footersec{
+  margin-top: 30px;
+  width: 100px;
+
+  
+}
+
 
 
 }
